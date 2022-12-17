@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -16,6 +15,7 @@
     --yellow-hover: #e9bd21;
     --robot: 'Roboto', sans-serif;
     --montserrat: 'Montserrat', sans-serif;
+    --gravitaone: 'Gravitas One', cursive;
     --grey11: #1C1C1C;
     --greylight: rgb(89, 95, 117);
     --blue: #2659e7;
@@ -503,6 +503,42 @@
     width: 100%;
     height: 100vh;
     background: var(--white) fixed;    
+}
+.container-cards {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+    margin-top: 300px;    
+}
+.content-cards {
+    background-color: var(--yellow);
+    padding: 80px;
+    text-align: center;
+    border-radius: 10px;
+    flex: 1;
+}
+.content-cards h3 {
+    font: 500 18px var(--montserrat);
+    margin-bottom: 40px;
+}
+.content-cards p {
+    font: 16px var(--robot);
+    color: var(--greylight);
+    line-height: 30px;
+    text-align: center;
+}
+.text-cards {
+    margin-bottom: 40px;
+}
+.img-cards img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.text-img-cards h5 {
+    font: 500 18px var(--montserrat);
 }
 
 
