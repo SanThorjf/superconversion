@@ -670,6 +670,56 @@ header {
     height: 100vh;
     background: var(--black) fixed;    
 }
+.container-faq {
+    width: 60%;
+    margin: 0 auto;
+}
+.container-faq-1 {
+    flex: 1;
+}
+.container-faq-2 {
+    flex: 1;
+}
+.title-faq {
+    color: var(--graylight);
+    font: 35px var(--montserrat);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 50px;
+}
+.title-faq span {
+    color: var(--yellow);
+}
+.container-questions {
+    display: flex;
+    gap: 40px;
+}
+.container-svg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-svg img {
+    width: 30px;
+    cursor: pointer;
+}
+.container-questions a {
+   text-decoration: none;
+   text-transform: uppercase;
+   font: 500 16px var(--montserrat);
+   color: var(--white);
+}
+.paragraph-question {
+    border-bottom: 2px solid var(--yellow);
+    margin-bottom: 30px;
+}
+.container-questions p {
+    font: 17px var(--robot);
+    color: var(--white);
+    line-height: 30px;
+    margin: 40px 0 40px 0;
+    display: none;
+ }
 
 
 
