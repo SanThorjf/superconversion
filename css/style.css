@@ -275,8 +275,7 @@ header {
     background-position: center; 
     background-size: cover;  
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    opacity: 0.8; 
+    background-attachment: fixed; 
 }
 .container-services {
     width: 60%;
@@ -519,7 +518,6 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    opacity: 0.7;
 }
 .container-dynamic-pages {
     width: 60%;
@@ -679,6 +677,13 @@ header {
 
 .footer {
     width: 100%;
-    min-height: 350px;
+    height: 150px;
     background: var(--yellow); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.footer p {
+    font: 1.1rem var(--montserrat);
+    color: var(--grey11); 
+} 
